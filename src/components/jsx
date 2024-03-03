@@ -1,0 +1,14 @@
+import React from "react";
+import "./Article.css"; //
+
+function Article() {
+  return (
+    <div className="article-container">
+      <h2>Hey, Teenager!</h2>
+      <p>Check this out:</p>
+      <p className="test-text">{"Please pass this test"}</p>
+    </div>
+  );
+}
+
+export default Article;
